@@ -1,5 +1,4 @@
 import { registerPlugin } from '@capacitor/core';
-
 import type { PullToRefreshPlugin } from './definitions';
 
 const PullToRefresh = registerPlugin<PullToRefreshPlugin>('PullToRefresh', {

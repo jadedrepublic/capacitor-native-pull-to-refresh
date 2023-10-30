@@ -7,4 +7,6 @@ CAP_PLUGIN(PullToRefreshPlugin, "PullToRefresh",
   CAP_PLUGIN_METHOD(enable, CAPPluginReturnPromise);
   CAP_PLUGIN_METHOD(disable, CAPPluginReturnPromise);
   CAP_PLUGIN_METHOD(endRefreshing, CAPPluginReturnPromise);
+  CAP_PLUGIN_METHOD(setScrollPosition, CAPPluginReturnNone);
+  CAP_PLUGIN_METHOD(manuallyTriggerRefreshingState, CAPPluginReturnNone);
 )

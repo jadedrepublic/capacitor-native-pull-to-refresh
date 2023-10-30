@@ -24,4 +24,12 @@ import Foundation
             completion(true, nil)
         }
     }
+
+    @objc public func setScrollPosition() {
+        print("PullToRefresh setScrollPosition")
+    }
+
+    @objc public func manuallyTriggerRefreshingState() {
+        print("PullToRefresh manuallyTriggerRefreshingState")
+    }
 }
